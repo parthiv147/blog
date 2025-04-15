@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anchor, lists, tables, image</title>
+</head>
+<body>
+    <!-- anchor tag is used to create a link in the web page, it is also called as hyperlink-->
+    <!-- href attribute is used to set the link of the anchor tag-->
+    <a href="./index.html">index page</a>
+    <br>
+    <a href="https://www.google.com">Google</a>
+    <!-- target attribute is used to set the target of the link, it can be '_blank'-->
+    <!-- _blank is used to open the link in a new tab-->
+    <br>
+    <a href="https://www.instagram.com" target="_blank">Instagram</a>
+
+    <br>
+    <br>
+    <!-- img tag is used to display an image in the web page-->
+    <!-- src attribute is used to set the source of the image-->
+    <!-- alt attribute is used to set the alternative text of the image-->
+    
+    <!-- syntax for basic img tag-->
+    <p>basic from web</p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-XoFRyAdtzsaESr8V7cY5zZTtI1TSsdQyvQ&s" alt="image">
+
+    <br>
+
+    <!-- img tag with width and height attributes-->
+    <!-- width and height attributes are used to set the width and height of the image-->
+    <p>img with width and height</p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-XoFRyAdtzsaESr8V7cY5zZTtI1TSsdQyvQ&s" alt="image" width="200px" height="200px">
+
+    <br>
+
+    <!-- img from a local file-->
+    <p>img from local file</p>
+    <img src="./bubble2.jpg" alt="image">
+
+    <br>
+    <br>
+    <!-- audio tag is used to play an audio file in the web page-->
+    <!-- src attribute is used to set the source of the audio file-->
+    <!-- type attribute is used to set the type of the audio file-->
+    <!-- controls attribute is used to set the controls of the audio file-->
+    <p>Audio</p>
+
+    <audio controls>
+        <source src="./Centuries.mp3" type="audio/mp3">
+    </audio>
+    
+    
+    <br>
+
+    <!-- ************** -->
+    <!-- list tag is used to create a list in the web page-->
+    <!-- there are three types of list tags, unordered list, ordered list and description list-->
+
+    <!-- *********** -->
+    <!-- ordered list is used to create a list with numbers-->
+    <p>Ordered List</p>
+    <ol>   <!-- ordered list with default numbers-->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <!-- ordered list with different types of numbers-->
+    <br>
+    <p>Ordered List with different types of numbers</p>
+    <p>Type roman digits</p>
+    <ol type="I">       <!-- from 1 we get I, II, III...-->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <!-- ordered list with start attribute is used to set the starting number of the list-->
+    <br>
+    <p>Ordered List with start attribute</p>
+    <ol start="5">      <!-- from 5 we get 5, 6, 7...-->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <br>
+    <p>Ordered List with type 'A' and start 3</p>
+    <ol type="A" start = '3'>    <!-- from 3 we get C, D, E...-->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <br>
+    <p>Ordered List with type 'A' and start 27</p>
+    <ol type="A" start = '27'>   <!-- from 27 we get AA, AB, AC...-->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <!-- ordered list with reversed attribute is used to reverse the order of the list-->
+    <!-- it will start from the last number and go to the first number-->
+    
+    <br>
+    <p>Ordered List with reversed attribute</p>
+    <ol reversed>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <br>
+    <p>Ordered List with reversed attribute and start 5</p>
+    <ol reversed start="5"> <!-- from 5 we get 5, 4, 3...-->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+
+    <!-- ****************** -->
+    <!-- unordered list is used to create a list with bullet points-->
+    <br>
+    <p>Unordered List</p>
+    <p>Unordered List with default bullet points</p>
+    <ul>   <!-- unordered list with default bullet points-->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <!-- unordered list with different types of bullet points-->
+    <br>
+
+    <!-- style attribute is used to set the style of the list, it can be 'disc', 'circle' and 'square'-->
+    
+    <p>Unordered List with different types of bullet points</p>
+    <p>Type disc</p>
+    <ul style="list-style-type: disc">   <!-- from 1 we get disc, circle, square...-->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <p>Type circle</p>
+    <ul style="list-style-type: circle">   <!-- from 1 we get disc, circle, square...-->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <p>Type square</p>
+    <ul style="list-style-type: square">   <!-- from 1 we get disc, circle, square...-->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    
+
+    <!-- **************** -->
+    <!-- description list is used to create a list with description-->
+    <br>
+    <p>Description List</p>
+    <dl>                         <!-- description list with default bullet points-->
+        <dt>Item 1</dt>          <!-- dt tag is used to create a description term-->
+        <dd>Description 1</dd>   <!-- dd tag is used to create a description definition-->
+        <dt>Item 2</dt>
+        <dd>Description 2</dd>
+        <dt>Item 3</dt>
+        <dd>Description 3</dd>
+    </dl>
+
+    <br>
+    <!-- table tag is used to create a table in the web page-->
+    <!-- table tag with border attribute is used to set the border of the table-->
+
+    <p>Basic Table</p>
+    <table border="1">          <!-- border attribute is used to set the border of the table-->
+        <tr>                    <!-- tr tag is used to create a table row-->
+            <th>Header 1</th>   <!-- th tag is used to create a table header-->
+            <th>Header 2</th>
+        </tr>
+        <tr>                    
+            <td>Data 1</td>     <!-- td tag is used to create a table data-->
+            <td>Data 2</td>
+        </tr>
+        <tr>                    
+            <td>Data 3</td>
+            <td>Data 4</td>
+        </tr>
+    </table>
+
+
+    <br>
+    <!-- table tag with cellspacing is used to set the space between the cells of the table-->
+    <p>Table with border changed to 3px and cellspacing 5px</p>
+    <!-- border '3px' is used to set the border of the table-->
+    <!-- cellspacing '2px' is used to set the space between the cells of the table-->
+
+
+    <table border="3px" cellspacing="5px"> <!-- cellspacing attribute is used to set the space between the cells of the table-->
+        <tr>
+            <th>Header 1</th>   
+            <th>Header 2</th>
+        </tr>
+        <tr>                    
+            <td>Data 1</td>     
+            <td>Data 2</td>
+        </tr>
+        <tr>                    
+            <td>Data 3</td>
+            <td>Data 4</td>
+        </tr>
+    </table>
+
+
+</body>
+</html>
